@@ -1,13 +1,13 @@
-// App.js
 import React from 'react';
-import SignUpForm from './components/SignUpForm';
+import ReservationForm from './components/ReservationForm';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <SignUpForm />
+    <div>
+      
+      <ReservationForm />
     </div>
   );
-}
+};
 
 export default App;
